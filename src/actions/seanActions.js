@@ -7,7 +7,7 @@ export const addSeanDeath = (death) => (
 );
 
 export const clearAll = () => (
-{ type: types.REMOVE_SEAN_DEATH }
+{ type: types.CLEAR_ALL }
 );
 
 //async action

@@ -1,7 +1,6 @@
 import React from 'react';
 import {IndexLink,Link} from 'react-router';
 
-//css modules styles, using CommonJS syntax to bypass eslint errors
 const styles = require('./Header.css');
 
 const Header = () => (

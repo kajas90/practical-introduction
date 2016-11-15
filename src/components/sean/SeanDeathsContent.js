@@ -20,6 +20,12 @@ class SeanDeathsContent extends React.Component {
     this.state.movie = event.target.value;
   }
 
+  clearAll() {
+    const {actions: {clearAll}} = this.props;
+    clearAll();
+
+  }
+
   render() {
     const {deaths} = this.props;
     return (
@@ -31,6 +37,7 @@ class SeanDeathsContent extends React.Component {
       </div>
       <input type="text" onChange={this.setMovieName.bind(this)} />
       <button onClick={this.addDeath.bind(this)}>add death</button>
+      <button onClick={this.clearAll.bind(this)}>clear all</button>
     </section>
     );
   }
