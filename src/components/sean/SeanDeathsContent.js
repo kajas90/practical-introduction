@@ -24,9 +24,9 @@ class SeanDeathsContent extends React.Component {
     const {deaths} = this.props;
     return (
       <section className={styles.content} >
-      <div>
+      <div className={styles.deaths}>
         {deaths.map((item,index) => (
-          <div key={index} >{item.movie}</div>
+          <div className={styles.line} key={index} >{item.movie}</div>
         ))}
       </div>
       <input type="text" onChange={this.setMovieName.bind(this)} />

@@ -1,5 +1,7 @@
 .content {
   composes: content from '../../styles/styles.css';
+  background: url(https://i.imgflip.com/1e6xwq.jpg) no-repeat center bottom;
+  padding-bottom: 400px;
 }
 
 .main-header {
@@ -14,3 +16,16 @@
   composes: link from '../../styles/styles.css';
   margin-top: 4rem;
 }
+
+.deaths {
+  padding: 2rem 0;
+}
+
+.line {
+  padding: 1rem 0 1rem 340px;
+  font-size: 3rem;
+  height: 200px;
+  border-bottom: 1px solid #908e89;
+  background: url(http://i.imgur.com/9lquMkJ.gif) no-repeat left center;
+}
+

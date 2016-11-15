@@ -6,10 +6,6 @@ export const addSeanDeath = (death) => (
   { type: types.ADD_SEAN_DEATH, death }
 );
 
-export const removeSeanDeath = (index) => (
-  { type: types.REMOVE_SEAN_DEATH, index }
-);
-
 export const clearAll = () => (
 { type: types.REMOVE_SEAN_DEATH }
 );
