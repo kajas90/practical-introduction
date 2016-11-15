@@ -2,10 +2,10 @@ import {combineReducers} from 'redux';
 import {routerReducer} from 'react-router-redux';
 
 //import each reducer to combine
-import counter from './counterReducer';
+import sean from './seanReducer';
 
 const rootReducer = combineReducers({
-  counter, routing: routerReducer
+  sean, routing: routerReducer
 });
 
 export default rootReducer;

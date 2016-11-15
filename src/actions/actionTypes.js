@@ -1,6 +1,7 @@
 //counter action types
-export const INCREASE_COUNTER = 'INCREASE_COUNTER';
-export const DECREASE_COUNTER = 'DECREASE_COUNTER';
+export const ADD_SEAN_DEATH = 'ADD_SEAN_DEATH';
+export const REMOVE_SEAN_DEATH = 'REMOVE_SEAN_DEATH';
+export const CLEAR_ALL = 'CLEAR_ALL';
 
 //fetch request action types
 export const BEGIN_FETCH_REQUEST = 'BEGIN_FETCH_REQUEST';
